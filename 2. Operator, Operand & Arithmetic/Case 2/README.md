@@ -28,7 +28,7 @@ C3 = C -> 3
 C4 = D -> 4
 
 C1 + C2  = 3
-2 X C3 = 9
+3 X C3 = 9
 6 % C4 = 1
 
 Setelah mendapat hasilnya,
