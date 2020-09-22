@@ -1,3 +1,5 @@
+Ini ga wajib ya gengs
+-------
 # Gerak Jatuh Bebas
 
 ## Pendahuluan
