@@ -1,3 +1,6 @@
+# Video Penyelesaian
+[Youtube](https://youtu.be/ilpry9Hol6A)
+
 # TutuLator
 
 ## Pendahuluan
