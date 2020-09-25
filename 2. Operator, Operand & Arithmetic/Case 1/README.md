@@ -17,9 +17,9 @@ Tampilkan output dalam format "*h* meter" di mana h adalah sebuah bilangan desim
 Jangan lupa tambah sebuah line break di akhir program.
 
 ## Constraint
-0   <= *Vo* <= 20
-9.8 <= *g*  <= 10
-1   <= *t*  <= 20
+0   <= *Vo* <= 20 <br>
+9.8 <= *g*  <= 10 <br>
+1   <= *t*  <= 20 <br>
 
 ## Test Case
 | Input | Output |
