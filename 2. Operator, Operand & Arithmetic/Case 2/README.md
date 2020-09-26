@@ -1,5 +1,5 @@
 # Video Penyelesaian
-[Youtube](https://youtu.be/ilpry9Hol6A)
+[Youtube](https://www.sivadira.com)
 
 # TutuLator
 
