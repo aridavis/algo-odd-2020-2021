@@ -1,3 +1,6 @@
+# Video Penyelesaian
+[Youtube](https://www.sivadira.com)
+
 # TutuLator
 
 ## Pendahuluan
@@ -27,9 +30,9 @@ C2 = B -> 2
 C3 = C -> 3
 C4 = D -> 4
 
-C1 + C2  = 3
-2 X C3 = 9
-6 % C4 = 1
+C1 + C2 = 3
+3 X C3 = 9
+9 % C4 = 1
 
 Setelah mendapat hasilnya,
 maka convert angka 1 menjadi character yaitu A
