@@ -15,6 +15,6 @@ Output all prime numbers between *a* and *b* in a line, but avoid a trailing spa
 a <= *b* <= 10000<br>
 
 ## Test Case
-| Input                 | Output             |
-| --------------------- | ------------------ |
-| 2<br>1 10<br>5 10<br> | 2 3 5 7<br>5 7<br> |
+| Input                 | Output                               |
+| --------------------- | ------------------------------------ |
+| 2<br>1 10<br>5 10<br> | Case #1: 2 3 5 7<br>Case #2: 5 7<br> |
