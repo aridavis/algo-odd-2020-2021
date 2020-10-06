@@ -10,9 +10,9 @@ The input will be *t* as the test case numbers and followed by *t* lines which r
 Output all prime numbers between *a* and *b* in a line, but avoid a trailing space
 
 ## Constraint
-1 <= *t* <= 1000
-1 <= a <= 10000
-a <= b <= 10000
+1 <= *t* <= 1000<br>
+1 <= a <= 10000<br>
+a <= b <= 10000<br>
 
 ## Test Case
 | Input                 | Output             |
