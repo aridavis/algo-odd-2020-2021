@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int primeNumbers[1000000] = {};
+
 int main()
 {
     int t = 0;
