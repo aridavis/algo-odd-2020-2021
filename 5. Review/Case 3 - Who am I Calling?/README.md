@@ -6,11 +6,11 @@ A big company usually has a phone with lots of extensions. Sometimes, when we ca
 
 ## Input
 
-The input will start with an integer $t$ and then each $t$ lines, the input will be an integer $n$ determining how many redirections. for each $n$ lines, there will be $x$ and $y$ determining the source and the redirection of $x$. The input is followed by and integer $z$ determining where we call from.
+The input will start with an integer **_t_** and then each **_t_** lines, the input will be an integer **_n_** determining how many redirections. for each **_n_** lines, there will be **_x_** and **_y_** determining the source and the redirection of **_x_**. The input is followed by and integer **_z_** determining where we call from.
 
 ## Output
 
-Print "Case #$i$: " where $i$ determines the current case and followed by the last redirected number
+Print "Case #**_i_**: " where **_i_** determines the current case and followed by the last redirected number
 
 ## Test Case
 

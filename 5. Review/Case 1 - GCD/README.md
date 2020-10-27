@@ -6,11 +6,11 @@ In mathematics, the greatest common divisor (gcd) of two or more integers, which
 
 ## Input
 
-The input will start with **_$t$_** determining the total test cases. Each $t$ lines, there will be $n$. The next line, the program will receive input for $n$ times ($k_{1..n}$)
+The input will start with **_$t$_** determining the total test cases. Each $t$ lines, there will be $n$. The next line, the program will receive input for $n$ times (**_k\_{1..n}_**)
 
 ## Output
 
-For each $t$ lines, print the GCD and dont forget to print Case #$i$: before the GCD
+For each **_t_** lines, print the GCD and dont forget to print Case #$i$: before the GCD
 
 ## Test Case
 

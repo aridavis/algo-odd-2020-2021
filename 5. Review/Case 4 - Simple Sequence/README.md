@@ -10,7 +10,7 @@ There will be an input _t_, for each _t_ lines, there will be a sentence
 
 ## Output
 
-Print "Case #$i$:" and in the next line, print all characters and its count sorted by the ascii number
+Print "Case #**_i_**:" and in the next line, print all characters and its count sorted by the ascii number
 
 ## Test Case
 
