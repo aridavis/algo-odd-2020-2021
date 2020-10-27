@@ -29,7 +29,7 @@ Input:
 Output:
 
 <pre>
-Case #1: 1
+Case #1: 2
 Case #2: 1
 Case #3: 23
 </pre>
