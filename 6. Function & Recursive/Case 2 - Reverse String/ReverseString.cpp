@@ -14,7 +14,16 @@ void reverse(char str[])
 
 int main()
 {
-
-    reverse("ABC");
+    while (true)
+    {
+        char str[500] = "";
+        strcpy(str, "");
+        scanf("%[^\n]", str);
+        getchar();
+        if (strcmp(str, "EXIT") == 0)
+            break;
+        reverse(str);
+        printf("\n");
+    }
     return 0;
 }
