@@ -1,13 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void swap(int *a, int *b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
 int getPartitionIndex(int *arr, int left, int right)
 {
     int pivot = arr[right];
@@ -25,28 +18,13 @@ int getPartitionIndex(int *arr, int left, int right)
     return i + 1;
 }
 
-void sort(int *arr, int left, int right)
+void QuickSort(int *arr, int left, int right)
 {
     if (right <= left)
     {
         return;
     }
     int pIndex = getPartitionIndex(arr, left, right);
-    sort(arr, left, pIndex - 1);
-    sort(arr, pIndex + 1, right);
-}
-
-int main()
-{
-    int arr[9] = {7, 2, 1, 6, 8, 5, 3, 4, 3};
-    int size = sizeof(arr) / sizeof(int);
-
-    sort(arr, 0, size - 1);
-
-    for (int i = 0; i < size; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-
-    return 0;
+    QuickSort(arr, left, pIndex - 1);
+    QuickSort(arr, pIndex + 1, right);
 }

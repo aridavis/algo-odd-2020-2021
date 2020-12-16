@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 void merge(int arr[], int l, int m, int r)
 {
     int sizeLeft = m - l + 1;
@@ -33,43 +30,22 @@ void merge(int arr[], int l, int m, int r)
     {
         arr[idx++] = left[i];
     }
-    for (i; i < sizeRight; i++)
+    for (j; j < sizeRight; j++)
     {
-        arr[idx++] = right[i];
+        arr[idx++] = right[j];
     }
 }
 
-void mergeSort(int arr[], int l, int r)
+void MergeSort(int arr[], int l, int r)
 {
     if (l >= r)
     {
         return;
     }
     int mid = l + ((r - l) / 2);
-    for (int i = l; i <= mid; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    printf(" SPLIT ");
-    for (int i = mid + 1; i <= r; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-    mergeSort(arr, l, mid);
-    mergeSort(arr, mid + 1, r);
+
+    MergeSort(arr, l, mid);
+    MergeSort(arr, mid + 1, r);
 
     merge(arr, l, mid, r);
-}
-
-int main()
-{
-    int arr[] = {123, 11, 12, 32, 231, 531, 4124};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    mergeSort(arr, 0, size - 1);
-    for (int i = 0; i < size; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    return 0;
 }
