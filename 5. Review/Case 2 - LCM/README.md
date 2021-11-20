@@ -6,7 +6,7 @@ In arithmetic and number theory, the least common multiple, lowest common multip
 
 ## Input
 
-The input will start with **_$t$_** determining the total test cases. Each **_t_** lines, there will be **_n_**. The next line, the program will receive input for **_n_** times (**_k\_{1..n}_**)
+The input will start with **_t_** determining the total test cases. Each **_t_** lines, there will be **_n_**. The next line, the program will receive input for **_n_** times (**_k\_{1..n}_**)
 
 ## Output
 
